@@ -29,6 +29,7 @@
     visibility: hidden;
     transition: opacity .5s ease-out, visibility 0s linear .5s;
     z-index: 99999;
+    color: #363891;
 }
 
 #spinner.show {
@@ -92,6 +93,7 @@
 }
 .get-started{
     border: none;
+    
 }
 .ruleflex{
     color: #363891;
@@ -193,12 +195,17 @@
     color: rgba(255, 255, 255, .5);
 }
 
+.breadcrumb-item a{
+    color: #ec3237;
+}
+
 
 /*** Section Title ***/
 .section-title {
     position: relative;
     display: inline-block;
     text-transform: uppercase;
+    color: #363891;
 }
 
 .section-title::before {
