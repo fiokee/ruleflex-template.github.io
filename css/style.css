@@ -271,7 +271,13 @@
 .destination a:hover img {
     transform: scale(1.1);
 }
+.contact-item{
+    color: #363891;
+}
 
+.contact-icon{
+    background-color: #363891;
+}
 
 /*** Package ***/
 .package-item {
