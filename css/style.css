@@ -199,6 +199,32 @@
     color: #ec3237;
 }
 
+.whatsapp-button {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+
+.whatsapp-button:hover {
+    background-color: #1ebc59;
+    text-decoration: none;
+    color: white;
+}
+
+.whatsapp-icon {
+    margin-right: 10px;
+}
 
 /*** Section Title ***/
 .section-title {
