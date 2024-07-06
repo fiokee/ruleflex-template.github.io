@@ -274,10 +274,15 @@
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
+    background-color: #363891;
+    color: #fff;
 }
-
+.service-item h5{
+    color: #fff;
+}
 .service-item:hover {
     background: var(--primary);
+    background-color: #2C3E50;
 }
 
 .service-item * {
